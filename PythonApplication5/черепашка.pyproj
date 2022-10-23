@@ -5,7 +5,7 @@
     <ProjectGuid>acedc420-fa77-43c9-b697-711313c4aa30</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>буква S.py</StartupFile>
+    <StartupFile>пружина.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="бабочка.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="звезда.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="квадратная спираль.py">

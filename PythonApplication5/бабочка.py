@@ -1,6 +1,15 @@
 import turtle
 
 turtle.shape('turtle')
-goto(0, 0)
-for i in range(1,5):
-    turtle.circle(70)
+turtle.left(90)
+n = 50
+
+def butterfly(n):
+    turtle.circle(n)
+    turtle.circle(-n)
+
+x = 1
+while x <= 20:
+    butterfly(n)
+    n += 5
+    x += 1
